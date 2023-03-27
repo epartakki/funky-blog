@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 # load image
-image = Image.open('input_image.jpg')
+image = Image.open('input.jpg')
 image = np.array(image)
 
 # funky filter function
@@ -19,4 +19,4 @@ funky_image = funky_filter(image)
 
 # output final image
 output_image = Image.fromarray(funky_image)
-output_image.save('output_image.jpg')
+output_image.save('output.jpg')
