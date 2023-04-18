@@ -1,7 +1,6 @@
 from PIL import Image
 import numpy as np
 
-# load image
 image = Image.open('input.jpg')
 image = np.array(image)
 
